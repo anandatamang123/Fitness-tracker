@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333; /* Dark gray header background */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 2em;
+    animation-duration: 1.5s;
+}
+
+.quote {
+    text-align: center;
+    color: #aaa; /* Light gray text for the quote */
+    font-style: italic;
+    margin-bottom: 20px;
+    animation-duration: 1.5s;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #333; /* Dark gray container background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #fff; /* White headings */
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #aaa; /* Light gray labels */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555; /* Dark gray border */
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #444; /* Dark gray input background */
+    color: #fff; /* White text */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #555; /* Dark gray button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #444; /* Slightly darker gray on hover */
+}
+
+canvas {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bodybuilding-image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}

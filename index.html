@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="animate__animated animate__fadeInDown">Fitness Tracker</h1>
+        <p class="quote animate__animated animate__fadeInUp">"The only bad workout is the one that didn't happen."</p>
+    </header>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnADMKdCO_CooVPfCUPYZXMvRrcrNyhVo9lw&s" alt="Bodybuilding Image" class="bodybuilding-image animate__animated animate__fadeIn">
+        <section id="form-section" class="animate__animated animate__fadeInLeft">
+            <h2>Add Exercise</h2>
+            <form id="exercise-form">
+                <div class="form-group">
+                    <label for="exercise">Exercise:</label>
+                    <input type="text" id="exercise" name="exercise" placeholder="e.g., Running, Cycling, etc." required>
+                </div>
+                <div class="form-group">
+                    <label for="calories">Calories Burned:</label>
+                    <input type="number" id="calories" name="calories" min="0" placeholder="Enter calories" required>
+                </div>
+                <button type="submit" class="btn">Add Exercise</button>
+            </form>
+        </section>
+        <section id="chart-section" class="animate__animated animate__fadeInRight">
+            <h2>Exercise Summary</h2>
+            <canvas id="exercise-chart"></canvas>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
